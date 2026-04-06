@@ -9,6 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: 0.3
       import: app/west.yml
     - name: zmkTest05  #new entry
       remote: chance                       #new entry
